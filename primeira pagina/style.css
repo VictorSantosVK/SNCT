@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+a:hover {
+    color: #8BC34A;
+    transition: 0.5s all;
+}
+
+.contatos {
+    border: 2px solid #4caf50;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contatos:hover {
+    background-color: #8BC34A;
+    transition: 0.8s all;
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+}
+
+span {
+    color: #4caf50;
+}
+
+p {
+    line-height: 25px;
+    min-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    padding: 10px;
+    width: 450px;
+    border-radius: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 30%;
+    background-color: #4CAF50;
+    /* Verde */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+form [type="submit"]:hover {
+    background-color: #8BC34A;
+    transition: 0.3s all;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #4caf50;
+    margin-top: 30px;
+}
